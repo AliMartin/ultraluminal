@@ -1,0 +1,25 @@
+uuid: 1b6aaf1c-3b81-468d-8604-ba24b1efd71a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e43a77c9-e9b2-4e34-a12a-c55b1cef7f21'
+  module:
+    - block_content
+  theme:
+    - hyperluminal
+id: sitecontactbutton
+theme: hyperluminal
+region: nav_additional
+weight: 0
+provider: null
+plugin: 'block_content:e43a77c9-e9b2-4e34-a12a-c55b1cef7f21'
+settings:
+  id: 'block_content:e43a77c9-e9b2-4e34-a12a-c55b1cef7f21'
+  label: 'Site contact button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

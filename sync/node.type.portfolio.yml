@@ -1,0 +1,17 @@
+uuid: b134ca2a-6889-4633-b656-4e38c43a1381
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Portfolio
+type: portfolio
+description: 'Add a <em>portfolio</em> item to the website.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

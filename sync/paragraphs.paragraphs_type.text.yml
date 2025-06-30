@@ -1,0 +1,10 @@
+uuid: a0b69582-f836-484b-8c0c-345fa73f86cf
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'Add a normal <em>text</em> paragraph.'
+behavior_plugins: {  }

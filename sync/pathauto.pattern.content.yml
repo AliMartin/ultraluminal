@@ -1,0 +1,24 @@
+uuid: 85841904-8f8c-4b56-85ed-95e0cc0c6567
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  77824541-c264-46cc-b4c7-ceb5663e495c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 77824541-c264-46cc-b4c7-ceb5663e495c
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+      webform: webform
+selection_logic: and
+weight: -5
+relationships: {  }

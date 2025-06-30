@@ -1,0 +1,85 @@
+// Style for cuk webform, which through webform.html.twig will have the cuk-webform class
+
+form {
+
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > div,
+  > fieldset {
+    margin-bottom: 2rem;
+  }
+
+  label {
+    font-weight: $font-weight-bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .error {
+    color: red;
+    padding-top: 0.25rem;
+  }
+
+}
+
+
+// Defaults
+.form-control {
+  color: $black;
+  border: 3px solid $pink;
+  border-radius: 2rem;
+  box-shadow: inherit;
+  margin-bottom: 0.25rem;
+  transition: inherit;
+  padding: 1rem;
+
+  &:focus,
+  &:active {
+    border: 3px solid $purple;
+    box-shadow: inherit;
+  }
+}
+
+
+// Checkboxes and radion buttons
+input.form-check-input {
+  &:checked {
+    background-color: $purple;
+    border-color: $purple;
+  }
+  &:focus {
+    box-shadow: inherit;
+  }
+}
+
+input.form-radio {
+  accent-color: $purple;
+}
+
+.form-type-radio,
+.form-type-checkbox {
+  label {
+    font-weight: $font-weight-normal;
+  }
+  .description {
+    margin-left: 0;
+  }
+}
+
+
+// Progress bar
+.progress-step.is-active .progress-marker::before {
+  background-color: $pink;
+}
+
+.webform-progress-tracker .progress-step.is-active:hover .progress-marker::before {
+  background-color: $purple;
+}
+
+.webform-progress-tracker .progress-step .progress-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: inherit;
+  font-size: small;
+}

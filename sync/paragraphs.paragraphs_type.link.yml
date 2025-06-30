@@ -1,0 +1,10 @@
+uuid: 969a0044-004c-4810-a42d-ebd4b01613ec
+langcode: en
+status: true
+dependencies: {  }
+id: link
+label: Link
+icon_uuid: null
+icon_default: null
+description: 'Add a <em>link</em> to another website.'
+behavior_plugins: {  }

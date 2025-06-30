@@ -1,0 +1,29 @@
+uuid: 68c7a6f4-7f19-464b-bb02-8987fccf5900
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.carousel
+  module:
+    - system
+    - views
+  theme:
+    - hyperluminal
+id: hyperluminal_views_block__carousel_block_1
+theme: hyperluminal
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:carousel-block_1'
+settings:
+  id: 'views_block:carousel-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

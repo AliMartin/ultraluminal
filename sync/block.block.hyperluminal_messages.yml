@@ -1,0 +1,22 @@
+uuid: be81eb47-f9d2-4a8d-8020-242667e7542f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: AT9pE4kMQvy8YRb0NqCqQzc6bMZkEWk0pZcYW2g-CjQ
+id: hyperluminal_messages
+theme: hyperluminal
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

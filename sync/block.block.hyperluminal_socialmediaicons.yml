@@ -1,0 +1,25 @@
+uuid: 899e76d9-7b48-4637-acdc-35d13408a7cf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:461acd77-271a-452e-8ef5-e93045ea2bb0'
+  module:
+    - block_content
+  theme:
+    - hyperluminal
+id: hyperluminal_socialmediaicons
+theme: hyperluminal
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:461acd77-271a-452e-8ef5-e93045ea2bb0'
+settings:
+  id: 'block_content:461acd77-271a-452e-8ef5-e93045ea2bb0'
+  label: 'Social media icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

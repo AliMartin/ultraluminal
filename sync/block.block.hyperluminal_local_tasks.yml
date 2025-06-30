@@ -1,0 +1,22 @@
+uuid: 0ba79761-513e-411c-8c49-24fdfd6b4b09
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: Y8P_M0T4rQfPAi6ieN2wqufH0zgONi-IvLqH-R6WRBs
+id: hyperluminal_local_tasks
+theme: hyperluminal
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 9981c795-2c0e-4450-8dcb-ac1df91c961e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a89c7041-11e1-4930-8bb2-068916dd9aa3'
+  module:
+    - block_content
+  theme:
+    - hyperluminal
+id: hyperluminal_sitemap
+theme: hyperluminal
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:a89c7041-11e1-4930-8bb2-068916dd9aa3'
+settings:
+  id: 'block_content:a89c7041-11e1-4930-8bb2-068916dd9aa3'
+  label: Sitemap
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

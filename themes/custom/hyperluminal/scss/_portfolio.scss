@@ -1,0 +1,99 @@
+.field--name-field-client-type {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  // font-weight: $font-weight-bold;
+  margin-bottom: 1rem;
+}
+
+.field--name-field-website {
+  margin-bottom: 1rem;
+  a {
+    display: inline-block;
+    background-color: $primary;
+    color: $white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    &:hover,
+    &:focus {
+      background-color: $secondary;
+    }
+  }
+}
+
+#quote-panel,
+.field--name-field-quote {
+  max-width: 750px;
+  margin: 0 auto 3rem;
+  background-color: $white;
+  padding: 3rem;
+  border-radius: $border-radius;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+
+  p:nth-last-child(1) {
+    color: $secondary;
+    margin-bottom: 0;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
+}
+
+.field--name-field-services {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto 3rem;
+
+  .field__item {
+    background-color: $gray-700;
+    color: $white;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }  
+}
+
+
+.view-portfolio {
+  .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .views-row {
+    max-width: 400px;
+  }
+
+  a img {
+    transition: transform 0.5s;
+  }
+
+  a img:hover {
+    transform: scale(1.1); 
+  }
+}
+
+
+
+.slide__content {
+  padding: 15px;
+}
+
+.slick-arrow::before {
+  color: $primary;
+  opacity: 1;
+}
+
+.slick-arrow:hover::before {
+  color: $secondary;
+}

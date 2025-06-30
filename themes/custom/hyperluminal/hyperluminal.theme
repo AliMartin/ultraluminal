@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Hyperluminal theme file.
+ */
+
+function hyperluminal_preprocess_html(&$variables) {
+  // Get the current path
+  $current_path = \Drupal::service('path.current')->getPath();
+  $internal_path = \Drupal::service('path_alias.manager')->getAliasByPath($current_path);
+
+  // Assign it to body class 
+  $variables['attributes']['class'][] = str_replace("/", "", $internal_path);
+}

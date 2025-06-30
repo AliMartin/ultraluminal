@@ -1,0 +1,25 @@
+uuid: 5813b31c-c6ee-400c-b980-0f7e79ad10c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: Q9p9ZSQauy2JebzO55mBTYjed3Lr5iskShozs18K3Xw
+id: hyperluminal_branding
+theme: hyperluminal
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

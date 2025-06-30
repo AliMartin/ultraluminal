@@ -1,0 +1,10 @@
+uuid: 9cb9893e-68da-4ccb-9c18-50dfb148a441
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+icon_uuid: null
+icon_default: null
+description: 'Add an <em>image</em> to the page.'
+behavior_plugins: {  }

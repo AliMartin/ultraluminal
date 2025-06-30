@@ -1,0 +1,109 @@
+// Bootstrap variables (overrides).
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 4rem,
+  2: 3.5rem,
+  3: 3rem,
+  4: 2.5rem,
+  5: 2rem,
+  6: 1.5rem,
+) !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+
+$form-text-margin-top: 0 !default;
+$legend-font-size: 1rem !default;
+$table-cell-padding-x: 0.75rem;
+
+// Set the widest xxl breakpoint at 1600px with a container width of 1520px
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+);
+
+// Cycling UK breakpoint variables. These are the three primary ones we want to stick to.
+$hyperluminal-breakpoint-sm: map-get($grid-breakpoints, "sm");
+$hyperluminal-breakpoint-md: map-get($grid-breakpoints, "md");
+$hyperluminal-breakpoint-xl: map-get($grid-breakpoints, "xl");
+
+// Additional breakpoint variables to follow bootstrap 5, however only use if truly needed. That's the plan anyway.
+$hyperluminal-breakpoint-xs: map-get($grid-breakpoints, "xs");
+$hyperluminal-breakpoint-lg: map-get($grid-breakpoints, "lg");
+$hyperluminal-breakpoint-xxl: map-get($grid-breakpoints, "xxl");
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1520px,
+);
+
+// Override default bootstrap colors for accessibility
+$primary: #444071;
+$secondary: #c4326e;
+$success: #24995e;
+$info: #716bc0;
+$warning: #ddc926;
+$danger: #e82714;
+$light: #fbe9f2;
+$black: #000100;
+$white: #ffffff;
+
+$purple: #716bc0;
+$pink: #c4326e;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "black":      $black,
+);
+
+
+// Fonts
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-font-weight: 600;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+// Hyperlinks
+$link-color: $primary;
+$link-decoration: underline;
+$link-hover-color: $secondary;
+$link-hover-decoration: underline;
+
+// Image border radius
+$border-radius-img: 7px;
+
+// Border radius
+$border-radius: 7px;
+$border-radius-img: $border-radius;

@@ -1,0 +1,10 @@
+uuid: 29dedbe4-9253-4c5e-8f61-9c7605b7d12c
+langcode: en
+status: true
+dependencies: {  }
+id: icon
+label: Icon
+icon_uuid: null
+icon_default: null
+description: 'Adds a Font Awesome <em>hero icon</em> with a subtitle and text.'
+behavior_plugins: {  }

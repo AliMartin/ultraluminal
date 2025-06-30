@@ -1,0 +1,37 @@
+uuid: 63980353-fae1-4f38-a22d-758c4a6a72f0
+langcode: en
+status: false
+dependencies:
+  module:
+    - ai_chatbot
+  theme:
+    - hyperluminal
+id: hyperluminal_aideepchatchatbot_2
+theme: hyperluminal
+region: content
+weight: 0
+provider: null
+plugin: ai_deepchat_block
+settings:
+  id: ai_deepchat_block
+  label: 'AI DeepChat Chatbot'
+  label_display: visible
+  provider: ai_chatbot
+  ai_assistant: jarvis
+  bot_name: 'Generic Chatbot'
+  bot_image: /core/misc/druplicon.png
+  use_username: 1
+  default_username: User
+  use_avatar: 1
+  default_avatar: /core/misc/favicon.ico
+  first_message: 'Hello! How can I help you today?'
+  stream: 1
+  toggle_state: remember
+  width: 400px
+  height: 500px
+  placement: bottom-left
+  show_structured_results: true
+  show_copy_icon: true
+  collapse_minimal: false
+  style_file: bing.yaml
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: affa55fc-4366-4752-afa2-2786186f9780
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a949316-c686-44d5-ab42-a29a0c66edb0'
+  module:
+    - block_content
+  theme:
+    - hyperluminal
+id: hyperluminal_footertext
+theme: hyperluminal
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:4a949316-c686-44d5-ab42-a29a0c66edb0'
+settings:
+  id: 'block_content:4a949316-c686-44d5-ab42-a29a0c66edb0'
+  label: 'Footer text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

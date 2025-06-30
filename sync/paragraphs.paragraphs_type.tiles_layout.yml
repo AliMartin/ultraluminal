@@ -1,0 +1,16 @@
+uuid: 4004c303-8f06-42ec-bdd0-023c5c024ec9
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: tiles_layout
+label: 'Tiles layout'
+icon_uuid: null
+icon_default: null
+description: 'Present the paragraphs as <em>tiles</em>.'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'

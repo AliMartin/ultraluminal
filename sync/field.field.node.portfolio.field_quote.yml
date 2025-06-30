@@ -1,0 +1,22 @@
+uuid: 02e69664-e340-4a5b-bbc4-a52c67fece14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quote
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_quote
+field_name: field_quote
+entity_type: node
+bundle: portfolio
+label: Quote
+description: 'The quote is made up of two paragraphs. The first paragraph is the quote and the second one is the person who said it.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

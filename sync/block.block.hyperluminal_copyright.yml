@@ -1,0 +1,25 @@
+uuid: 962fb483-d024-4d2c-888d-fac182d0a893
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ad7cef36-2336-4ef1-a68e-e2a32856083a'
+  module:
+    - block_content
+  theme:
+    - hyperluminal
+id: hyperluminal_copyright
+theme: hyperluminal
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ad7cef36-2336-4ef1-a68e-e2a32856083a'
+settings:
+  id: 'block_content:ad7cef36-2336-4ef1-a68e-e2a32856083a'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

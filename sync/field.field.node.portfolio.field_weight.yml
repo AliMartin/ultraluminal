@@ -1,0 +1,23 @@
+uuid: b6deee4c-a8d9-4f74-9862-7d7c6d34743f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.portfolio
+id: node.portfolio.field_weight
+field_name: field_weight
+entity_type: node
+bundle: portfolio
+label: Weight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

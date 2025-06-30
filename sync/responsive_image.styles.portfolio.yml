@@ -1,0 +1,30 @@
+uuid: 525e2544-1168-47f9-bfdd-aa859bceeaff
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.portfolio_large
+    - image.style.portfolio_medium
+    - image.style.portfolio_small
+  theme:
+    - hyperluminal
+id: portfolio
+label: Portfolio
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_large
+    breakpoint_id: hyperluminal.screen.xl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_medium
+    breakpoint_id: hyperluminal.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_small
+    breakpoint_id: hyperluminal.screen.xs-max
+    multiplier: 1x
+breakpoint_group: hyperluminal.screen
+fallback_image_style: portfolio_large

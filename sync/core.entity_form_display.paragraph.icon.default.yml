@@ -1,0 +1,42 @@
+uuid: 443dd79a-3159-43cd-9d44-3748e593ff82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon.field_icon
+    - field.field.paragraph.icon.field_subtitle
+    - field.field.paragraph.icon.field_text
+    - paragraphs.paragraphs_type.icon
+  module:
+    - fontawesome
+    - text
+id: paragraph.icon.default
+targetEntityType: paragraph
+bundle: icon
+mode: default
+content:
+  field_icon:
+    type: fontawesome_icon_widget
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_subtitle:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

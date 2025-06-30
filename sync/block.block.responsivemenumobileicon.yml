@@ -1,0 +1,20 @@
+uuid: 8aac8045-7a5c-4f4e-9263-43a72279229c
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - hyperluminal
+id: responsivemenumobileicon
+theme: hyperluminal
+region: nav_main
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 00c98815-2aca-4781-b3a0-841ca807b7e9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: oL1te701_D4kOFxpLTw2-01iZTxMLIOzkTphfJraKrE
+id: hyperluminal_local_actions
+theme: hyperluminal
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

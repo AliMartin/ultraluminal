@@ -1,0 +1,22 @@
+uuid: d647090a-7ec4-4dab-8123-19b16fb4bdd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: sYPJLF7ehvFksBcX2FSkhYebC6DfZggjoigGrXN4f3A
+id: hyperluminal_help
+theme: hyperluminal
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

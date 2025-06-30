@@ -1,0 +1,26 @@
+.field--name-field-link {
+  a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: $primary;
+    color: $white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+}
+
+.btn-primary {
+  border: inherit;
+  border-radius: 30px;
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: $secondary;
+  }
+}
