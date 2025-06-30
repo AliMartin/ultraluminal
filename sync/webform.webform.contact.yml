@@ -308,10 +308,10 @@ handlers:
       bcc_options: {  }
       cc_mail: ''
       cc_options: {  }
-      from_mail: noreply@hyperluminal.co.uk
+      from_mail: noreply@ultraluminal.co.uk
       from_options: {  }
-      from_name: '* Hyperluminal *'
-      reply_to: noreply@hyperluminal.co.uk
+      from_name: '* Ultraluminal *'
+      reply_to: noreply@ultraluminal.co.uk
       return_path: ''
       sender_mail: ''
       sender_name: ''
